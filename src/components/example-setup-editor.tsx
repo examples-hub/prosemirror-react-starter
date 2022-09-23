@@ -1,3 +1,5 @@
+import '../editor-examples.css';
+
 // import { applyDevTools } from 'prosemirror-dev-tools';
 import { applyDevTools } from 'prosemirror-dev-toolkit';
 import { exampleSetup } from 'prosemirror-example-setup';
@@ -7,8 +9,6 @@ import { addListNodes } from 'prosemirror-schema-list';
 import { EditorState } from 'prosemirror-state';
 import { EditorView } from 'prosemirror-view';
 import React, { useEffect, useRef, useState } from 'react';
-
-import { StyledContainer } from '../editor-examples.css';
 
 /**
  * ✨ 官方编辑器示例，基于 prosemirror-example-setup 。

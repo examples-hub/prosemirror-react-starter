@@ -11,7 +11,7 @@ module.exports = merge(devConfig, {
     // contentBase: path.resolve(__dirname, '../build'),
     // open: true,
     host: '0.0.0.0',
-    port: 8999,
+    port: 8990,
     hot: true,
     compress: true,
     historyApiFallback: true,
